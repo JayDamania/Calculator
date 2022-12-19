@@ -1,0 +1,51 @@
+.btncalc {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding: 4%;
+}
+button {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: dimgrey;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border-color: rgba(169, 126, 119, 0.708);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+#zeroid {
+  border-radius: 40px;
+  width: 80%;
+}
+
+.typebox {
+  grid-column: 1 / span 4;
+  width: 90%;
+  justify-self: center;
+  border-radius: 16px;
+  height: 2em;
+  background-color: rgb(108, 105, 105);
+  color: black;
+}
+
+#orange {
+  background-color: orange;
+}
+
+button:hover {
+  color: black;
+}
+
+input::placeholder {
+  font-size: 40px;
+  text-align: right;
+}

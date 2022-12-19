@@ -1,0 +1,8 @@
+.boxstyle {
+  background-color: rgb(6, 6, 6);
+  width: 30em;
+  height: 40em;
+  margin: 5em auto;
+  padding: 1%;
+  border-radius: 5%;
+}
